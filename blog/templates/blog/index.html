@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block 'css_files' %}
+<link rel="stylesheet" href="{% static 'blog/index.css' %}">
+{% endblock  %}
+{% block 'page_title' %}Home{% endblock  %}
+{% block 'content' %}
+    <header id="main-navigation">
+        <h1>
+            <a href="">Youcef Blog</a>
+        </h1>
+        <nav>
+            <a href="">All Posts</a>
+        </nav>
+    </header>
+    <section id="welcome">
+        <header>
+            <img src="" alt="Youcef - The Author Of This Blog">
+            <h2>YOUCEF'S BLOG</h2>
+            
+        </header>
+        <p>
+            Hi, I am Youcef I love to blog about tech and the world!
+        </p>
+    </section>
+    <section id="latest_posts">
+        <h2>My Latest Thoudhts</h2>
+        <ul>
+            <li>
+                <article class="post">
+                    <a href="">
+                        <img src="" alt="Mountain Hiking">
+                        <div class="post__content">
+                            <h3>Mountain Hiking</h3>
+                            <p>
+                                There's nothing like the views you get when hiking the mountains!
+                                 And I wasn't even prepares for what happened whilst 
+                                 I was enjoying the view!
+                            </p>
+                        </div>
+                    </a>
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>What I Do</h2>
+        <p>I love programming, I love to help others and I enjoy exploring new 
+            technologies in general!</p>
+        <p>My goal is to keep on growind as a develloper - and if I could help you do thesame,
+             I'd be very happy</p>
+    </section>
+    
+{% endblock  %}

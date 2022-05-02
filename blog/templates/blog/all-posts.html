@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block 'page_title' %}All Posts{% endblock  %}
+
+{% block 'content' %}
+{% for post in postsList %}
+    <a href="{% url 'posts' post.s %}">{{ post }}</a>
+
+{% endfor %}
+
+{% endblock  %}
