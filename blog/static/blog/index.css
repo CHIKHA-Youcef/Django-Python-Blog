@@ -25,38 +25,28 @@
     font-size: 3.5rem;
     margin: 0 0 0 2rem;
     color: #e4e4e4;
-    width: 10rem;
+    width: 15rem;
   }
   
   #welcome p {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   
-  #latest_posts {
-    background-color: #eee;
+  #latest-posts {
+    background-color: white;
     padding: 2rem;
     border-radius: 12px;
     width: 60rem;
     margin: -6rem auto 2rem auto;
     box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);
+  }
+  
+  #latest-posts h2 {
     text-align: center;
   }
   
-  #latest_posts img {
-    border-radius: 50%;
-    width: 10rem;
-    height: 10rem;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-  }
-  
-  #latest_posts h2 {
-    text-align: center;
-  }
-  
-  #latest_posts ul {
+  #latest-posts ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -64,7 +54,7 @@
     gap: 1rem;
   }
   
-  #latest_posts li {
+  #latest-posts li {
     flex: 1;
   }
   
